@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcAuction", "MvcAuction\MvcAuction.csproj", "{43B60FBB-A3AA-445D-A6C4-3C24C5E2B6CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43B60FBB-A3AA-445D-A6C4-3C24C5E2B6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B60FBB-A3AA-445D-A6C4-3C24C5E2B6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B60FBB-A3AA-445D-A6C4-3C24C5E2B6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B60FBB-A3AA-445D-A6C4-3C24C5E2B6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2717F4B7-F78E-482B-AC69-9F6623635371}
+	EndGlobalSection
+EndGlobal
