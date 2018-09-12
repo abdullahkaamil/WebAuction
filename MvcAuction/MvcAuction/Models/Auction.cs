@@ -16,8 +16,7 @@ namespace MvcAuction.Models
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
 
-        public  decimal StartPrice { get; set; }
+        public decimal StartPrice { get; set; }
         public decimal? CurrentPrice { get; set; }
-
     }
 }
