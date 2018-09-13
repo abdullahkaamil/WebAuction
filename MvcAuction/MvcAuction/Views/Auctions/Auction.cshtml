@@ -1,6 +1,9 @@
-﻿@{
-    
-    var auction = (MvcAuction.Models.Auction)ViewData["Auction"];
+﻿@model MvcAuction.Models.Auction
+@{
+
+//var auction = (MvcAuction.Models.Auction)ViewData["Auction"]; viewdata model interaction
+//var auction = ViewBag.Auction;   viewbag model interaction
+    var auction = Model;
 }
 
 <div class="auction">

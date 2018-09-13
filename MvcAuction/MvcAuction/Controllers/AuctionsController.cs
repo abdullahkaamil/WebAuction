@@ -14,7 +14,15 @@ namespace MvcAuction.Controllers
             return View();
         }
 
+        public ActionResult TempDataDemo()
+        {
+            TempData["successmassage"] = "the action succecced!";
 
+
+            return RedirectToAction("Index");
+
+
+        }
         public ActionResult Auction()
         {
             var auction = new MvcAuction.Models.Auction()
@@ -26,8 +34,8 @@ namespace MvcAuction.Controllers
                                   StartPrice = 1.00m,
                                   CurrentPrice = null,
                               };
-            ViewData["Auction"] = auction;
-            return View();
+            //ViewData["Auction"] = auction;
+            return View(auction);
         }
 
     }
